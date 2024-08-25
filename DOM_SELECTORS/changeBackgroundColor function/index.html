@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DOM Selector</title>
+</head>
+
+<body>
+  <h1>DOM Selector</h1>
+  <p>
+    Select elements using querySelector and change their background color to
+    yellow:
+  </p>
+  <div class="my-class">This is a div with class "my-class"</div>
+  <div class="my-class">This is another div with class "my-class"</div>
+  <div id="my-id">This is a div with id "my-id"</div>
+  <button>Click me</button>
+
+  <script src="./script.js"></script>
+  <script>
+    // Call the function with different selectors to test it
+    changeBackgroundColor(".my-class");
+    changeBackgroundColor("#my-id");
+    changeBackgroundColor("button");
+  </script>
+</body>
+
+</html>

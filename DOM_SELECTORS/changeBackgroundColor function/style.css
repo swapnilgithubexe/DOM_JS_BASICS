@@ -1,0 +1,24 @@
+body {
+    font-size: 20px;
+  }
+  .my-class {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+  }
+  #my-id {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+  }
+  button {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+  } 
